@@ -27,7 +27,7 @@ def calculator():
                 elif choice == '4':
                     if num2 == 0:
                         print("Ошибка: деление на ноль!")
-                        continue  # Skip to the next iteration
+                        continue
                     result = num1 / num2
 
                 print(f"Результат: {result}")
